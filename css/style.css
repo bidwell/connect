@@ -6,16 +6,27 @@ header {
   padding-top: 40px;
 }
 .jumbotron {
-  background-image: url("../img/aspensCopy.jpg");
+  background-image: url("../img/trees.jpg");
   background-size: cover;
   background-position: center center;
   height: 400px;
   color: white;
 }
+.mainHead {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 i {
 	font-size: 2em; 
 	color: #66b039;
 	padding-left: 10px;
+}
+a:hover i {
+  color: #abd635;
 }
 .redout {
 	border: 1px solid red;
