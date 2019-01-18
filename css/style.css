@@ -1,16 +1,64 @@
 
 body {
   padding-top: 54px;
+  background-color: #f8f9fa;
 }
 header {
   padding-top: 40px;
 }
 .jumbotron {
+<<<<<<< HEAD
   background-image: url("../img/trees.jpg");
+=======
+  background-image: url("../img/aspens.jpg");
+>>>>>>> master
   background-size: cover;
   background-position: center center;
   height: 400px;
-  color: white;
+  color: black;
+}
+.welcome {
+	
+}
+.event {
+  text-transform: capitalize;
+  line-height: 30px;
+}
+.month {
+	text-transform: uppercase;
+	background-color: black;
+	color: #abd635;
+	width: 55px;
+    font-weight: bold;
+	text-align: center;
+	line-height: 23px;
+	padding: 5px;
+	font-size: 1.5em;
+}
+.location {
+	text-transform: capitalize;
+	line-height: 11px;
+	font-size: 1em;
+
+}
+.time {
+	font-weight: 450;
+	line-height: 11px;
+	font-size: 1.1em;
+}
+.mainHead {
+	background-color: black;
+	color: #abd635;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-whitefade {
+  background-color: rgba(255,255,255,0.6);
+  padding-bottom: 1px;
+  margin-bottom: 10px;
 }
 .mainHead {
 	margin-top: 50px;
@@ -23,7 +71,15 @@ header {
 i {
 	font-size: 2em; 
 	color: #66b039;
-	padding-left: 10px;
+	padding-left: 15px;
+}
+.large-icon {
+	font-size: 5em; 
+	padding-left: 0px;
+	margin: 30px;
+}
+a:hover i {
+  color: #abd635;
 }
 a:hover i {
   color: #abd635;
@@ -36,6 +92,9 @@ a:hover i {
 }
 .dkgreen {
 	color: #66b039;
+}
+.blacklink {
+	color: black;
 }
 .carousel-item {
   height: 65vh;
@@ -79,7 +138,7 @@ a:hover {
 }
 .navbar-green .navbar-toggler {
 color: #66b039;
-  border-color: #abd635;
+border-color: #abd635;
 }
 .navbar-green .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -95,25 +154,34 @@ color: #66b039;
 }
 
 .card {
-  border: 1px solid #abd635;
+  border: 1px solid black;
 }
 .card-header {
-  border-bottom: 1px solid #abd635;
+  background-color: black;
+  color: #abd635;
 }
 .card-footer {
-  border-top: 1px solid #abd635;
+  background-color: black;
+  color: #abd635;
+}
+.btn-black {
+  color: #abd635;
+  background-color: black;
+}
+
+.btn-black:hover {
+  background-color: #343a40;
 }
 
 .btn-green {
   color: #fff;
   background-color: #66b039;
-  border-color: #66b039;
 }
 
 .btn-green:hover {
   color: #fff;
   background-color: #abd635;
-  border-color: #66b039;
+  
 }
 
 .btn-green:focus, .btn-green.focus {
@@ -138,8 +206,15 @@ color: #66b039;
   box-shadow: 0 0 0 0.2rem #66b039;
 }
 
+@media only screen and (max-width: 600px) {
+.event {
+	font-size: 1.3em;
+}
+.welcome {
+	font size: 1em;
+}
 
-
+}
 
 
 
